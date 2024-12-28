@@ -49,3 +49,39 @@ const myFunction = function(){
 
 // to find data types of a variable
 console.log(typeof myFunction);
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack and heap memory
+// Data Types = DT
+
+// all primitive data type uses Stack memory --> primitive DT uses the copy of the value 
+// all non primitive data types uses Heap memory
+
+let myYoutubename = "helloWorld"
+
+let anotherName = myYoutubename
+anotherName = "HiWorld"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+// in stack memory we deal with the copy of the data stored in that
+// in heap memory we deal with the reference of the data stored in that 
+
+let userTwo = userOne
+
+userTwo.email = "nikhil@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
