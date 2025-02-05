@@ -50,14 +50,32 @@ const users = [
 
 //console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); // this is used to get the keys of the objects and this will return in form of arrays which then can be used in different places using the for or any other loop
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser)); // this is used to get the keys of the objects and this will return in form of arrays which then can be used in different places using the for or any other loop
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 
 // to ask the objects if the proprty is available in the object or not 
 
-console.log(tinderUser.hasOwnProperty('isLogged'));
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+// destructoring  of Objects**********************************************************************************************************
+
+const course = {
+    courseName: "JS in hindi",
+    price: "999",
+    courseInstructor: "Tuiya"
+}
+
+const {courseInstructor: instructor} = course // using the curly braces will help to reduce the dependecy on the dot operator to use the values of the objects
+// the above one is destructoring 
+console.log(instructor);
+
+
+
+
+
 
 
 
