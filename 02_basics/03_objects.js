@@ -28,7 +28,7 @@ const jsUser = {
 
 // console.log(jsUser["full name"]);
 
-// console.log(jsUser[mySym]);
+// console.log(jsUser[mySym]); ------> remeber this 
 
 // changing the value of the objects 
 
@@ -49,6 +49,10 @@ jsUser.greetingTwo = function(){
 
 console.log(jsUser.greeting());
 console.log(jsUser.greetingTwo());
+
+// remember note
+// whenever accessing any value in the object use the dot notation
+
 
 
 
