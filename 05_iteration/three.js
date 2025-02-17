@@ -44,5 +44,7 @@ const myObject = {
     'game2': 'Spiderman'
 }
 
+// we cannot use for of loop for the objcts
+
 
 
